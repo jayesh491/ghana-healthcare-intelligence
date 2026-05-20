@@ -132,7 +132,7 @@ export default function Login({ onLogin }) {
         </div>
 
         <p className="text-center text-gray-700 text-xs mt-6">
-          Virtue Foundation × Databricks Hackathon 2024
+          Virtue Foundation × Databricks Hackathon 2026
         </p>
       </div>
     </div>
