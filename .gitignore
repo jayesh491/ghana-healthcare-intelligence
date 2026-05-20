@@ -1,0 +1,13 @@
+﻿node_modules/
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/mlruns/
+backend/last_answer.txt
+healthcare-agent/node_modules/
+healthcare-agent/dist/
+healthcare-agent/.vite/
+.env
+*.env
+.DS_Store
+Thumbs.db
