@@ -30,7 +30,7 @@ export default function AgentChat() {
 
     try {
       const token = localStorage.getItem('token')
-      const res = await fetch('http://localhost:8000/api/query', {
+      const res = await fetch('https://ghana-healthcare-intelligence.onrender.com/api/query', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
