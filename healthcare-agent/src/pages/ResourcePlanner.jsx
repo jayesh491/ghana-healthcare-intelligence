@@ -40,7 +40,7 @@ export default function ResourcePlanner() {
       3) Timeline recommendation, 4) Any risks or considerations.
       Be specific with hospital names and numbers from Ghana data.`
 
-      const res = await fetch('http://localhost:8000/api/query', {
+      const res = await fetch('https://ghana-healthcare-intelligence.onrender.com/api/query', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
