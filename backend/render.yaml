@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ghana-healthcare-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GROQ_API_KEY
+        value: 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
