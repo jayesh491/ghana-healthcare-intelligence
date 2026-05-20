@@ -12,7 +12,7 @@ export default function Anomalies() {
   const fetchAnomalies = async () => {
     setLoading(true)
     try {
-      const res = await fetch('http://localhost:8000/api/anomalies')
+      const res = await fetch('https://ghana-healthcare-intelligence.onrender.com/api/anomalies')
       const data = await res.json()
       setAnomalies(data)
     } catch (err) {
