@@ -18,7 +18,7 @@ export default function Login({ onLogin }) {
       : { email: form.email, password: form.password }
 
     try {
-      const res = await fetch(`http://localhost:8000${url}`, {
+      const res = await fetch(`https://ghana-healthcare-intelligence.onrender.com${url}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(body)
