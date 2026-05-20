@@ -1,7 +1,7 @@
 import { mockStats, mockHospitals, mockAgentResponse } from './mockData'
 
 const USE_MOCK = true  // ← Change to false when friend is ready
-const BASE_URL = "http://localhost:8000"
+const BASE_URL = "https://ghana-healthcare-intelligence.onrender.com"
 
 export async function queryAgent(question) {
   if (USE_MOCK) {
