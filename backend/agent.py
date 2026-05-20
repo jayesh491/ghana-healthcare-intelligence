@@ -5,7 +5,7 @@ import mlflow.tracking
 import time
 from rag import semantic_search
 
-client = Groq(api_key="your groq api")
+client = Groq(api_key="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")
 DB_NAME = "healthcare.db"
 
 # Setup MLFlow
