@@ -117,7 +117,7 @@ export default function IDPDemo() {
 
     try {
       const token = localStorage.getItem('token')
-      const res = await fetch('http://localhost:8000/api/parse', {
+      const res = await fetch('https://ghana-healthcare-intelligence.onrender.com/api/parse', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
